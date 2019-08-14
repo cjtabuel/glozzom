@@ -65,3 +65,27 @@ body, html {
 #video-section a {
     color: white;
 }
+
+#main-footer {
+  background: black;
+}
+
+#page-header {
+  padding-top: 70px;
+  height: 200px;
+  background: url('../img/image1.jpg');
+  background-position: 0 -390px;
+  background-attachment: fixed;
+  border-bottom: 1px #eee solid;
+
+}
+
+/* this will move the text down to make it more visible
+ since the nav is .fixed-top */
+#about-text {
+  padding-top: 20px;
+}
+
+#about-content img {
+  margin-top: -25px;
+}
